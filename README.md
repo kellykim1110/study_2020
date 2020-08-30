@@ -3,7 +3,7 @@
 <br>
 
 
-## WHAT I study
+## WHAT I STUDY
 - 정보처리기사 정리
 - C언어 공부
 

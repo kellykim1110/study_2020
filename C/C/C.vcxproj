@@ -141,11 +141,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Array.c" />
+    <ClCompile Include="buffer.c" />
     <ClCompile Include="conditional.c" />
+    <ClCompile Include="function1.c" />
+    <ClCompile Include="function2.c" />
     <ClCompile Include="hello.c" />
     <ClCompile Include="loop.c" />
     <ClCompile Include="operator.c" />
+    <ClCompile Include="pointer.c" />
     <ClCompile Include="scanf.c" />
+    <ClCompile Include="string.c" />
+    <ClCompile Include="string_func.c" />
+    <ClCompile Include="structure.c" />
     <ClCompile Include="switch.c" />
     <ClCompile Include="variable.c" />
   </ItemGroup>

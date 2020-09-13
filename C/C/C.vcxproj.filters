@@ -39,5 +39,26 @@
     <ClCompile Include="Array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="string.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="string_func.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="structure.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

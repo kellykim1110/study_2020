@@ -1,54 +1,53 @@
 #include <stdio.h>
-/*
 int main() {
 	int input;
-	printf("°­¾ÆÁö Å°¿ì±â\n");
-	printf("¹«¾ùÀ» ÇÏ½Ç·¡¿ä? \n");
-	printf("1. ¹äÁÖ±â\n");
-	printf("2. ¾Ä±â±â\n");
-	printf("3. Àç¿ì±â\n");
+	printf("ê°•ì•„ì§€ í‚¤ìš°ê¸°\n");
+	printf("ë¬´ì—‡ì„ í•˜ì‹¤ë˜ìš”? \n");
+	printf("1. ë°¥ì£¼ê¸°\n");
+	printf("2. ì”»ê¸°ê¸°\n");
+	printf("3. ì¬ìš°ê¸°\n");
 
 	scanf("%d", &input);
 
 	if (input == 1) {
-		printf("¾ÆÀÌ ¸ÀÀÖ¾î. \n");
+		printf("ì•„ì´ ë§›ìˆì–´. \n");
 	}
 	else if (input == 2) {
-		printf("¾ÆÀÌ ½Ã¿øÇØ. \n");
+		printf("ì•„ì´ ì‹œì›í•´. \n");
 	}
 	else if (input == 3) {
 		printf("zzz  \n");
 	}
 	else {
-		printf("¹«½¼ ¸»ÀÌ¿¡¿©??? ¿Ğ¿Ğ\n");
+		printf("ë¬´ìŠ¨ ë§ì´ì—ì—¬??? ì™ˆì™ˆ\n");
 	}
 
 	return 0;
 }
-*/
+
 /*
 int main() {
 	int input;
-	printf("°­¾ÆÁö Å°¿ì±â\n");
-	printf("¹«¾ùÀ» ÇÏ½Ç·¡¿ä? \n");
-	printf("1. ¹äÁÖ±â\n");
-	printf("2. ¾Ä±â±â\n");
-	printf("3. Àç¿ì±â\n");
+	printf("ê°•ì•„ì§€ í‚¤ìš°ê¸°\n");
+	printf("ë¬´ì—‡ì„ í•˜ì‹¤ë˜ìš”? \n");
+	printf("1. ë°¥ì£¼ê¸°\n");
+	printf("2. ì”»ê¸°ê¸°\n");
+	printf("3. ì¬ìš°ê¸°\n");
 
 	scanf("%d", &input);
 
 	switch (input) {
 	case 1:
-		printf("¾ÆÀÌ ¸ÀÀÖ¾î. \n");
+		printf("ì•„ì´ ë§›ìˆì–´. \n");
 		break;
 	case 2:
-		printf("¾ÆÀÌ ½Ã¿øÇØ. \n");
+		printf("ì•„ì´ ì‹œì›í•´. \n");
 		break;
 	case3:
 		printf("zzz  \n");
 		break;
 	default:
-		printf("¹«½¼ ¸»ÀÌ¿¡¿©??? ¿Ğ¿Ğ\n");
+		printf("ë¬´ìŠ¨ ë§ì´ì—ì—¬??? ì™ˆì™ˆ\n");
 		break;
 	}
 

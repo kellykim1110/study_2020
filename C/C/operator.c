@@ -1,31 +1,30 @@
-// Arithmetic Operator »ê¼ú ¿¬»êÀÚ
+// Arithmetic Operator ì‚°ìˆ  ì—°ì‚°ìž
 #include <stdio.h>
-/*
 int main() {
 	int a, b;
-	//A ssignment Operator ´ëÀÔ¿¬»êÀÚ
-	// ¿ìÃøÀÇ °ªÀ» ÁÂÃø¿¡ ´ëÀÔÇÏ¶ó
+	//A ssignment Operator ëŒ€ìž…ì—°ì‚°ìž
+	// ìš°ì¸¡ì˜ ê°’ì„ ì¢Œì¸¡ì— ëŒ€ìž…í•˜ë¼
 	a = 10;
 	b = 3;
 	printf("a + b = %d \n", a + b);
 	printf("a - b = %d \n", a - b);
 	printf("a * b = %d \n", a * b);
 	printf("a / b = %d \n", a / b); 
-	printf("a %% b = %d \n", a % b); //%¸¦ ÅØ½ºÆ®·Î Ç¥±âÇÏ±â À§ÇØ¼­´Â Å« µû¿ÈÇ¥¾È¿¡ %¸¦ µÎ°³ ½áÁÖ¾î¾ß %ÀÌ ÇÏ³ª·Î Ãâ·ÂµÊ. // %d, %x¿Í °°ÀÌ ÀÎ½ÄµÉ ¼öµµ ÀÖÀ¸¹Ç·Î
+	printf("a %% b = %d \n", a % b); //%ë¥¼ í…ìŠ¤íŠ¸ë¡œ í‘œê¸°í•˜ê¸° ìœ„í•´ì„œëŠ” í° ë”°ì˜´í‘œì•ˆì— %ë¥¼ ë‘ê°œ ì¨ì£¼ì–´ì•¼ %ì´ í•˜ë‚˜ë¡œ ì¶œë ¥ë¨. // %d, %xì™€ ê°™ì´ ì¸ì‹ë  ìˆ˜ë„ ìžˆìœ¼ë¯€ë¡œ
 	return 0;
 }
-*/
 
-// »ê¼ú º¯È¯
+
+// ì‚°ìˆ  ë³€í™˜
 /*
 int main() {
-	int a; //Á¤¼öÇü º¯¼ö
-	double b; //½Ç¼öÇü º¯¼ö
+	int a; //ì •ìˆ˜í˜• ë³€ìˆ˜
+	double b; //ì‹¤ìˆ˜í˜• ë³€ìˆ˜
 	a = 10;
 	b = 3;
-	printf("»ê¼ú º¯È¯ÀÌ¶õ ÀÚ·áÇüÀÌ ´Ù¸¥ µÎ º¯¼ö¸¦ ¿¬»êÇÒ ¶§, ¼ýÀÚ°¡ Å« ¹üÀ§°¡ Å« ÀÚ·áÇüÀ¸·Î ÀÚ·áÇüµéÀÌ ¹Ù²î´Â °ÍÀ» ÀÇ¹Ì \n");
+	printf("ì‚°ìˆ  ë³€í™˜ì´ëž€ ìžë£Œí˜•ì´ ë‹¤ë¥¸ ë‘ ë³€ìˆ˜ë¥¼ ì—°ì‚°í•  ë•Œ, ìˆ«ìžê°€ í° ë²”ìœ„ê°€ í° ìžë£Œí˜•ìœ¼ë¡œ ìžë£Œí˜•ë“¤ì´ ë°”ë€ŒëŠ” ê²ƒì„ ì˜ë¯¸ \n");
 	printf("a / b = %f \n", a / b);
-	printf("a / b = %d \n", a / b); // Æ²¸° ´äÀ¸·Î ³ª¿Â´Ù. Á¤¼öÇüÀº ½Ç¼öÇüº¸´Ù ¼ýÀÚ ¹üÀ§°¡ ÀÛ´Ù.
+	printf("a / b = %d \n", a / b); // í‹€ë¦° ë‹µìœ¼ë¡œ ë‚˜ì˜¨ë‹¤. ì •ìˆ˜í˜•ì€ ì‹¤ìˆ˜í˜•ë³´ë‹¤ ìˆ«ìž ë²”ìœ„ê°€ ìž‘ë‹¤.
 	printf("b / a = %f \n", b / a);
 	return 0;
 }
@@ -38,17 +37,17 @@ int main() {
 	b += 1;
 	printf("a = %d \nb = %d \n", a, b);
 	// prefix
-	// 1À» ´õÇÑ ÈÄ °á°ú ¹ÝÈ¯
+	// 1ì„ ë”í•œ í›„ ê²°ê³¼ ë°˜í™˜
 	printf("c = %d\n", ++c);
 	//postfix
-	// º¯¼ö ¹ÝÈ¯ ÈÄ 1 ´õÇÏ±â
+	// ë³€ìˆ˜ ë°˜í™˜ í›„ 1 ë”í•˜ê¸°
 	printf("d = %d\n", d++);
 	printf("d = %d\n", d);
 	return 0;
 }
 */
 
-// ºñÆ® ¿¬»êÀÚ
+// ë¹„íŠ¸ ì—°ì‚°ìž
 /*
 int main() {
 	int a = 0xAF; // 10101111
@@ -68,19 +67,19 @@ int main() {
 }
 */
 
-// ÄÄÇ»ÅÍ°¡ À½¼ö¸¦ Ç¥ÇöÇÏ´Â ¹æ¹ý(2ÀÇ º¸¼ö 2's Complement)
+// ì»´í“¨í„°ê°€ ìŒìˆ˜ë¥¼ í‘œí˜„í•˜ëŠ” ë°©ë²•(2ì˜ ë³´ìˆ˜ 2's Complement)
 /* 
-2ÀÇ º¸¼ö Ã¼°è ÇÏ¿¡¼­
-¾î¶² ¼öÀÇ ºÎÈ£¸¦ ¹Ù²Ù·Á¸é ¸ÕÀú ºñÆ®¸¦ ¹ÝÀü½ÃÅ² µÚ¿¡ 1À» ´õÇÏ±â
+2ì˜ ë³´ìˆ˜ ì²´ê³„ í•˜ì—ì„œ
+ì–´ë–¤ ìˆ˜ì˜ ë¶€í˜¸ë¥¼ ë°”ê¾¸ë ¤ë©´ ë¨¼ì € ë¹„íŠ¸ë¥¼ ë°˜ì „ì‹œí‚¨ ë’¤ì— 1ì„ ë”í•˜ê¸°
 */
 /*
 int main() {
-	// int´Â -2147483648 ~ 2147483647±îÁö Á¤¼ö µ¥ÀÌÅÍ¸¦ º¸°ü °¡´É
+	// intëŠ” -2147483648 ~ 2147483647ê¹Œì§€ ì •ìˆ˜ ë°ì´í„°ë¥¼ ë³´ê´€ ê°€ëŠ¥
 	int a = 2147483647;
-	printf("Á¤¼öÇü ¹üÀ§¸¦ ³Ñ¾î°¡¸é \n");
+	printf("ì •ìˆ˜í˜• ë²”ìœ„ë¥¼ ë„˜ì–´ê°€ë©´ \n");
 	a++;
 	printf("a = %d\n", a);
-	printf("ÀÚ·áÇüÀÇ ÃÖ´ë ¹üÀ§º¸´Ù Å« ¼ö¸¦ ´ëÀÔÇÏ¸é ¹ß»ýÇÏ´Â ¹®Á¦¸¦ ¿À¹öÇÃ·Î¿ì Overflow¶ó°í ÇÑ´Ù.")
+	printf("ìžë£Œí˜•ì˜ ìµœëŒ€ ë²”ìœ„ë³´ë‹¤ í° ìˆ˜ë¥¼ ëŒ€ìž…í•˜ë©´ ë°œìƒí•˜ëŠ” ë¬¸ì œë¥¼ ì˜¤ë²„í”Œë¡œìš° Overflowë¼ê³  í•œë‹¤.")
 	return 0;
 }
 */

@@ -1,22 +1,22 @@
 #include <stdio.h>
-/*
-// for ¹®
-// for(º¯¼ö¸í = ÃÊ±â°ª; Á¶°Ç ½Ä; º¯È­ ½Ä)
+
+// for ë¬¸
+// for(ë³€ìˆ˜ëª… = ì´ˆê¸°ê°’; ì¡°ê±´ ì‹; ë³€í™” ì‹)
 int main() {
 	int i, sum = 0;
 	
 	for (i = 1; i < 20; ++i) {
 		sum += i;
 	}
-	printf("1ºÎÅÍ %d±îÁöÀÇ ÇÕÀº %dÀÌ´Ù.\n", i-1, sum);
+	printf("1ë¶€í„° %dê¹Œì§€ì˜ í•©ì€ %dì´ë‹¤.\n", i-1, sum);
 	
 	return 0;
 }
-*/
+
 
 /*
-// while ¹®
-// while(Á¶°Ç½Ä)
+// while ë¬¸
+// while(ì¡°ê±´ì‹)
 int main() {
 	int i = 1, sum = 0;
 	
@@ -24,14 +24,14 @@ int main() {
 		sum += i;
 		i++;
 	}
-	printf("1ºÎÅÍ %d±îÁöÀÇ ÇÕÀº %dÀÌ´Ù.\n", i - 1, sum);
+	printf("1ë¶€í„° %dê¹Œì§€ì˜ í•©ì€ %dì´ë‹¤.\n", i - 1, sum);
 	
 	return 0;
 }
 */
 
 /*
-// do-while ¹®
+// do-while ë¬¸
 int main() {
 	int i = 1, sum = 0;
 	
@@ -39,7 +39,7 @@ int main() {
 		sum += i;
 		i++;
 	} while (i < 20);
-	printf("1ºÎÅÍ %d±îÁöÀÇ ÇÕÀº %dÀÌ´Ù.\n", i - 1, sum);
+	printf("1ë¶€í„° %dê¹Œì§€ì˜ í•©ì€ %dì´ë‹¤.\n", i - 1, sum);
 
 	return 0;
 }
@@ -50,9 +50,9 @@ int main() {
 int main() {
 	int i,j, N, n;
 
-	printf("¸î¹øÂ° ÁÙ±îÁö ¿øÇÏ½Ê´Ï±î?:\n");
+	printf("ëª‡ë²ˆì§¸ ì¤„ê¹Œì§€ ì›í•˜ì‹­ë‹ˆê¹Œ?:\n");
 	scanf("%d", &N);
-	printf("%d¹øÂ° ÁÙ±îÁö »ï°¢Çü Ãâ·Â\n", N);
+	printf("%dë²ˆì§¸ ì¤„ê¹Œì§€ ì‚¼ê°í˜• ì¶œë ¥\n", N);
 	n = N;
 	for (i = 1; i < n+1;++i) {
 		for (j = 1; j <= (2 * i - 1); ++j) {
@@ -61,7 +61,7 @@ int main() {
 		printf("\n");
 	}
 
-	printf("%d¹øÂ° ÁÙ±îÁö ¿ª»ï°¢Çü Ãâ·Â\n", N);
+	printf("%dë²ˆì§¸ ì¤„ê¹Œì§€ ì—­ì‚¼ê°í˜• ì¶œë ¥\n", N);
 	n = N;
 	for (i = 1; i < n+1; ++i) {
 		for (j = 1; j <= 2*(n-i)+1; ++j) {
@@ -70,16 +70,16 @@ int main() {
 		printf("\n");
 	}
 
-	printf("1000ÀÌÇÏÀÇ 3¶Ç´Â 5ÀÇ ¹è¼öÀÎ ÀÚ¿¬¼öµéÀÇ ÇÕ ±¸ÇÏ±â\n");
+	printf("1000ì´í•˜ì˜ 3ë˜ëŠ” 5ì˜ ë°°ìˆ˜ì¸ ìì—°ìˆ˜ë“¤ì˜ í•© êµ¬í•˜ê¸°\n");
 	int sum = 0;
 	for (i = 1; i <= 1000; ++i) {
 		if ((i % 3 == 0) || (i % 5 == 0)) {
 			sum += i;
 		}
 	}
-	printf("´äÀº %d \n", sum);
+	printf("ë‹µì€ %d \n", sum);
 
-	printf("ÇÇº¸³ªÄ¡ ¼ö¿­ÀÇ Â¦¼ö Ç×µéÀÇ ÇÕÀÌ 1000000ÀÌÇÏÀÎ °¡Àå Å« ¼ö ±¸ÇÏ±â\n");
+	printf("í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ì˜ ì§ìˆ˜ í•­ë“¤ì˜ í•©ì´ 1000000ì´í•˜ì¸ ê°€ì¥ í° ìˆ˜ êµ¬í•˜ê¸°\n");
 	int even_sum = 0, before2 = 0, before1 = 1, fibo;
 	for (i = 0;; ++i) {
 		if (i == 0) {
@@ -97,7 +97,7 @@ int main() {
 			}
 		}
 		if (even_sum >= 1000000) {
-			printf("´äÀº %d", even_sum-fibo);
+			printf("ë‹µì€ %d", even_sum-fibo);
 			break;
 		}
 	}

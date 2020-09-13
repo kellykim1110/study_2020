@@ -31,6 +31,7 @@ int main() {
 */
 
 // getchar() 이용
+/*
 int main() {
 	int num;
 	char c;
@@ -46,4 +47,4 @@ int main() {
 
 	return 0;
 }
-
+*/

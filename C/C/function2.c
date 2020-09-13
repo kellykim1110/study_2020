@@ -1,19 +1,18 @@
 #include <stdio.h>
-/*
 int main() {
 	int arr[10];
-	int i; // for¹®ÀÇ º¯¼ö
+	int i; // forë¬¸ì˜ ë³€ìˆ˜
 
 	for (i = 0; i < 10; i++) {
-		printf("%d¹øÂ° ¿ø¼Ò: ", i + 1);
+		printf("%dë²ˆì§¸ ì›ì†Œ: ", i + 1);
 		scanf("%d\n",&arr[i]);
 	}
 
-	printf("¹è¿­¿¡¼­ °¡Àå Å« ¼ö: %d \n", max_number(arr));
+	printf("ë°°ì—´ì—ì„œ ê°€ì¥ í° ìˆ˜: %d \n", max_number(arr));
 	
 	return 0;
 }
-*/
+
 
 int max_number(int *parr) {
 	int j;

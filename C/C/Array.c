@@ -1,6 +1,7 @@
 // 배열 Array
 // (배열의 형) (배열의 이름)[원소 개수]
 #include <stdio.h>
+/*
 int main() {
 	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
 	int i;
@@ -12,7 +13,7 @@ int main() {
 	printf("전체의 평균은 %d 이다.\n", ave / 10);
 	return 0;
 }
-
+*/
 
 
 // 소수 프로그램

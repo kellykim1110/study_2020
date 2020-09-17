@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8e30bbce-1fa6-4457-987d-ebf49e4d9276}</ProjectGuid>
-    <RootNamespace>C</RootNamespace>
+    <ProjectGuid>{0152faaf-638f-446e-a051-26832b9388fa}</ProjectGuid>
+    <RootNamespace>Clanguageprogrammers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>Cstart</ProjectName>
   </PropertyGroup>
@@ -87,7 +87,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -140,21 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Array.c" />
-    <ClCompile Include="buffer.c" />
-    <ClCompile Include="conditional.c" />
-    <ClCompile Include="const.c" />
-    <ClCompile Include="function1.c" />
-    <ClCompile Include="function2.c" />
-    <ClCompile Include="hello.c" />
-    <ClCompile Include="loop.c" />
-    <ClCompile Include="operator.c" />
-    <ClCompile Include="pointer.c" />
-    <ClCompile Include="scanf.c" />
-    <ClCompile Include="string.c" />
-    <ClCompile Include="string_func.c" />
-    <ClCompile Include="switch.c" />
-    <ClCompile Include="variable.c" />
+    <ClCompile Include="police_record.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

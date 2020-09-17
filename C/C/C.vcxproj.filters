@@ -57,7 +57,7 @@
     <ClCompile Include="string_func.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="structure.c">
+    <ClCompile Include="const.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

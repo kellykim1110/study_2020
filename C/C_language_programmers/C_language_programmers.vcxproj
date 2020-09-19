@@ -139,7 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="card_flip.c" />
+    <ClCompile Include="cat_struct.c" />
+    <ClCompile Include="changeArray.c" />
+    <ClCompile Include="dad_is_bald.c" />
+    <ClCompile Include="file_input_output.c" />
+    <ClCompile Include="grow_fish.c" />
+    <ClCompile Include="loop.c" />
     <ClCompile Include="police_record.c" />
+    <ClCompile Include="pyramid.c" />
+    <ClCompile Include="secret_diary.c" />
+    <ClCompile Include="solve_password.c" />
+    <ClCompile Include="swap.c" />
+    <ClCompile Include="typedef.c" />
+    <ClCompile Include="up_and_down.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

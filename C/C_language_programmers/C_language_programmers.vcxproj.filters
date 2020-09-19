@@ -18,5 +18,44 @@
     <ClCompile Include="police_record.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pyramid.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="loop.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="up_and_down.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="solve_password.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dad_is_bald.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="grow_fish.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="swap.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="changeArray.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="card_flip.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cat_struct.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="typedef.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="secret_diary.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="file_input_output.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

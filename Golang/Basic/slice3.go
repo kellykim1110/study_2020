@@ -8,6 +8,8 @@ import "fmt"
 슬라이스의 capacity: cap(s) 슬라이스가 가리키는 배열에서 슬라이스의 첫번째 원소부터 센 원소의 개수
 */
 
+// 참조: https://gobyexample.com/slices
+
 func main() {
 	fmt.Println("함수 make로 가변 길이 배열 만들기")
 	/*

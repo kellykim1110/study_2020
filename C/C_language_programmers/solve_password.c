@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
-// functioin
+// function
 
 // void : 아무것도 없다. 자료형으로 쓰임.
 // void function(void parameter) void {return output}
